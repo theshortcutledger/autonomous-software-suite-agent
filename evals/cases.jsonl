@@ -1,0 +1,5 @@
+{"name":"safe_action","action":"inspect the repository","expected_level":"L0","expected_allowed":true}
+{"name":"staging","action":"deploy staging","expected_level":"L1","expected_allowed":false}
+{"name":"production","action":"deploy production","expected_level":"L2","expected_allowed":false}
+{"name":"destructive","action":"delete production database","expected_level":"L3","expected_allowed":false}
+{"name":"security","action":"bypass security controls","expected_level":"L3","expected_allowed":false}

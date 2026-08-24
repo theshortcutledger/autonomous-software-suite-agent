@@ -1,0 +1,18 @@
+[project]
+name = "autonomous-suite-agent"
+version = "0.1.0"
+description = "Supervised autonomous software-evolution agent built with the OpenAI Agents SDK."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+  "openai-agents>=0.14.0",
+  "fastapi>=0.115",
+  "uvicorn>=0.30",
+  "pydantic>=2.0",
+]
+
+[project.scripts]
+suite-agent = "main:cli"
+
+[tool.uv]
+dev-dependencies = []
